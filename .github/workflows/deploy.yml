@@ -1,4 +1,4 @@
-name: Upload to COS
+name: Deploy to COS
 
 on: [push]
 
@@ -8,9 +8,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    
      # check it to your workflow can access it
-    # from: https://github.com/actions/checkout
+     # from: https://github.com/actions/checkout
     - name: Checkout Repository master branch
       uses: actions/checkout@main
       
@@ -29,7 +28,7 @@ jobs:
     - name: hexo generate
       run: |
         hexo g
-        
+
     - name: Install coscmd
       run: sudo pip install coscmd
     - name: Configure coscmd
@@ -39,5 +38,6 @@ jobs:
         BUCKET: blog-1252658952
         REGION: ap-shanghai
       run: coscmd config -a $SECRET_ID -s $SECRET_KEY -b $BUCKET -r $REGION
-    - name: Upload
-      run: coscmd upload -rs --delete -f ./public /
+      
+    - name: Upload to COS
+      run: coscmd upload -rs --delete -f ./public/ /
