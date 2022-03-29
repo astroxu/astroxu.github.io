@@ -2,10 +2,10 @@ title: Hexo
 subtitle: ''
 description: ''
 keywords: null
-author: John Doe
+author: Sean Xu
 language: en
 timezone: ''
-url: http://example.com
+url: http://blog.seanxu.cn
 permalink: ':year/:month/:day/:title/'
 permalink_defaults: null
 pretty_urls:
