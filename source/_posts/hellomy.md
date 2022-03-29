@@ -45,7 +45,8 @@ More info: [Generating](https://hexo.io/docs/generating.html)
 $ hexo deploy
 ```
 
+
 More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
 
 
-![images/20220329214600_a0223dcc9adcf0fe1627e8354485f0f5.png](https://blog-1252658952.cos.ap-shanghai.myqcloud.com/images/20220329214600_a0223dcc9adcf0fe1627e8354485f0f5.png)
+![images/20220329222654_d30650bf430f139ea2990ef18761ff6e.png](https://blogimg-1252658952.cos.ap-shanghai.myqcloud.com/images/20220329222654_d30650bf430f139ea2990ef18761ff6e.png)

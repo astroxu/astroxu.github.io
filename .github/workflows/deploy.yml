@@ -40,4 +40,4 @@ jobs:
       run: coscmd config -a $SECRET_ID -s $SECRET_KEY -b $BUCKET -r $REGION
       
     - name: Upload to COS
-      run: coscmd upload -rs --delete -f ./public/ /public/
+      run: coscmd upload -rs --delete -f ./public/ /
