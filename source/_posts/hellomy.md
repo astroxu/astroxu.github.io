@@ -1,6 +1,6 @@
 ---
-title: Hello World
-date: 2022-01-25 22:40:19
+title: Hello My
+date: 2022-03-29 21:40:19
 tags:
 ---
 
@@ -47,4 +47,5 @@ $ hexo deploy
 
 More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
 
-![test](https://blog-1252658952.cos.ap-shanghai.myqcloud.com/images/20220329122214_f705976e458c75933320b575df7db6ac.png)
+
+![images/20220329214600_a0223dcc9adcf0fe1627e8354485f0f5.png](https://blog-1252658952.cos.ap-shanghai.myqcloud.com/images/20220329214600_a0223dcc9adcf0fe1627e8354485f0f5.png)

@@ -238,7 +238,7 @@ widgets:
         # Author's current location
         location: Shanghai
         # URL or path to the avatar image
-        avatar: https://blog-1252658952.cos.ap-shanghai.myqcloud.com/images/avatar.jpeg
+        avatar: https://blog-1252658952.cos.ap-shanghai.myqcloud.com/images/avatar.png
         # Whether show the rounded avatar image
         avatar_rounded: false
         # Email address for the Gravatar

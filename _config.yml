@@ -4,7 +4,7 @@ subtitle: ''
 description: '技术博客，后端开发，无服务器云函数，Golang'
 keywords: seanxu
 author: seanxu
-language: en
+language: zh-CN #en
 timezone: 'Asia/Shanghai'
 
 # URL
