@@ -1,0 +1,43 @@
+name: Deploy to COS
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+     # check it to your workflow can access it
+     # from: https://github.com/actions/checkout
+    - name: Checkout Repository master branch
+      uses: actions/checkout@main
+      
+    # from: https://github.com/actions/setup-node  
+    - name: Setup Node.js 12.x 
+      uses: actions/setup-node@master
+      with:
+        node-version: "12.x"
+    
+    - name: Install dependencies
+      run: |
+        npm install hexo-cli -g
+        npm install
+
+    # 生成可访问的文档
+    - name: hexo generate
+      run: |
+        hexo g
+
+    - name: Install coscmd
+      run: sudo pip install coscmd
+    - name: Configure coscmd
+      env:
+        SECRET_ID: ${{ secrets.COSSECRETID }}
+        SECRET_KEY: ${{ secrets.COSSECRETKEY }}
+        BUCKET: blog-1252658952
+        REGION: ap-shanghai
+      run: coscmd config -a $SECRET_ID -s $SECRET_KEY -b $BUCKET -r $REGION
+      
+    - name: Upload to COS
+      run: coscmd upload -rs --delete -f ./public/ /
