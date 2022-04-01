@@ -131,8 +131,8 @@ footer:
         Download on GitHub:
             icon: fab fa-github
             url: 'https://github.com/seanxu24/blog'
-        #豫ICP备xxxx号:
-        #    url: 'https://beian.miit.gov.cn'
+        豫ICP备20002733号-1:
+            url: 'https://beian.miit.gov.cn'
         Privacy: /privacy
         Imprint: /imprint
 # Article related configurations
