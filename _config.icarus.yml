@@ -115,9 +115,9 @@ navbar:
         Download on GitHub:
             icon: fab fa-github
             url: 'https://github.com/seanxu24/blog'
-        Send Mail:
-            icon: fas fa-envelope
-            url: 'mailto: seanxu24@outlook.com'
+        #Send Mail:
+        #    icon: fas fa-envelope
+        #    url: 'mailto: seanxu24@outlook.com'
 # Page footer configurations
 footer:
     # Links to be shown on the right of the footer section
@@ -168,9 +168,9 @@ search:
 # Comment plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment/
 comment:
-    type: disqus
+    #type: disqus
     # Disqus shortname
-    shortname: 'seanxu'
+    #shortname: 'seanxu'
 # Donate plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
 donates:
@@ -185,10 +185,10 @@ donates:
         # Alipay qrcode image URL
     #    qrcode: ''
     # "Buy me a coffee" donate button configurations
-    -
-        type: buymeacoffee
+    #-
+    #    type: buymeacoffee
         # URL to the "Buy me a coffee" page
-        url: 'https://www.buymeacoffee.com/seanxu24'
+    #    url: 'https://www.buymeacoffee.com/seanxu24'
     # Patreon donate button configurations
     #-
     #    type: patreon
@@ -244,12 +244,12 @@ widgets:
         # Email address for the Gravatar
         gravatar: 
         # URL or path for the follow button
-        follow_link: 'https://github.com/seanxu24'
+        #follow_link: 'https://github.com/seanxu24'
         # Links to be shown on the bottom of the profile widget
         social_links:
-            Github:
-                icon: fab fa-github
-                url: https://github.com/seanxu24
+            #Github:
+            #    icon: fab fa-github
+            #    url: https://github.com/seanxu24
             #Weixin:
             #    icon: fab fa-weixin
             #    url: 'https://developers.weixin.qq.com/community/personal/oCJUsw4DgF0046Dd6X7b5Lm-INBA'
@@ -268,9 +268,9 @@ widgets:
             #RSS:
             #    icon: fas fa-rss
             #    url: /
-            Mail:
-                icon: fas fa-envelope
-                url: 'mailto:seanxu24@outlook.com'
+            #Mail:
+            #    icon: fas fa-envelope
+            #    url: 'mailto:seanxu24@outlook.com'
     # Table of contents widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
