@@ -96,7 +96,10 @@ theme: icarus
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/seanxu24/seanxu24.github.io
+  branch: main
+  message: '新增github page'
 archive_generator:
   per_page: 0
   yearly: false
