@@ -1,4 +1,4 @@
-name: Deploy to COS
+name: Hexo Auto Deploy
 
 on: [push]
 
@@ -47,7 +47,7 @@ jobs:
 
     - name: Deploy Hexo to github page
       run: |
-        hexo deploy
+        npm deploy
 
   
     # 暂停 生成可访问的文档
