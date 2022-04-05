@@ -22,22 +22,30 @@ jobs:
     - name: Install dependencies
       run: |
         npm install hexo-cli -g
+        npm install hexo-deployer-git -g
         npm install
-
-    # 生成可访问的文档
-    - name: hexo generate
+        
+    # 部署至github page
+    - name: deploy to github page
       run: |
-        hexo g
+        hexo clean && hexo deploy
 
-    - name: Install coscmd
-      run: sudo pip install coscmd
-    - name: Configure coscmd
-      env:
-        SECRET_ID: ${{ secrets.COSSECRETID }}
-        SECRET_KEY: ${{ secrets.COSSECRETKEY }}
-        BUCKET: blog-1252658952
-        REGION: ap-shanghai
-      run: coscmd config -a $SECRET_ID -s $SECRET_KEY -b $BUCKET -r $REGION
+  
+    # 暂停 生成可访问的文档
+    #- name: hexo generate
+    #  run: |
+    #    hexo g
+        
+    # 暂停上传cos上
+    #- name: Install coscmd
+    #  run: sudo pip install coscmd
+    #- name: Configure coscmd
+    #  env:
+    #    SECRET_ID: ${{ secrets.COSSECRETID }}
+    #    SECRET_KEY: ${{ secrets.COSSECRETKEY }}
+    #    BUCKET: blog-1252658952
+    #    REGION: ap-shanghai
+    #  run: coscmd config -a $SECRET_ID -s $SECRET_KEY -b $BUCKET -r $REGION
       
-    - name: Upload to COS
-      run: coscmd upload -rs --delete -f ./public/ /
+    #- name: Upload to COS
+    #  run: coscmd upload -rs --delete -f ./public/ /
