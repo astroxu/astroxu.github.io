@@ -37,6 +37,7 @@ jobs:
         GIT_USER: seanxu24
         # Hexo 编译后使用此 git 邮箱部署到 github 仓库
         GIT_EMAIL: seanxu24@outlook.com
+        GIT_DEPLOY_REPO: https://github.com/seanxu24/seanxu24.github.io.git
       run: |
         mkdir -p ~/.ssh/
         echo "$HEXO_DEPLOY_PRIVATE_KEY" > ~/.ssh/id_rsa 
@@ -44,6 +45,7 @@ jobs:
         ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
         git config --global user.name $GIT_USER
         git config --global user.email $GIT_EMAIL
+        git remote set-url origin $GIT_DEPLOY_REPO
 
     - name: Deploy Hexo to github page
       run: |
