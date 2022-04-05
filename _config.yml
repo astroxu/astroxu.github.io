@@ -97,7 +97,7 @@ theme: icarus
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/seanxu24/seanxu24.github.io
+  repo: https://github.com/seanxu24/seanxu24.github.io.git
   branch: main
   message: now('YYYY-MM-DD HH:mm:ss')
 archive_generator:
