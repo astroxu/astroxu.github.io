@@ -12,12 +12,12 @@ head:
     # https://developer.mozilla.org/en-US/docs/Web/Manifest
     manifest:
         # Name of the web application (default to the site title)
-        name: 我的作业本
+        name: Sean Xu
         # The displayed name of the web application
         # when there is not enough space to display full name
         short_name: sean
         # The start URL of the web application
-        start_url: http://blog.seanxu.cn
+        start_url: https://seanxu24.github.io
         # The default theme color for the application
         theme_color: 
         # A placeholder background color for the application page to display
