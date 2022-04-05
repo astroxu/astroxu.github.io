@@ -25,9 +25,9 @@ jobs:
         npm install hexo-deployer-git -g
         npm install
         
-    - name: deploy to github page
-      run: |
-        hexo clean && hexo deploy
+    #- name: deploy to github page
+    #  run: |
+    #    hexo clean && hexo deploy
         
     # 部署至github page
     - name: Setup Deploy Private Key
