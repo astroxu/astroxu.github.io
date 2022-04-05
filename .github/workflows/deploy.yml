@@ -1,4 +1,4 @@
-name: Deploy to COS
+name: Hexo Auto Deploy
 
 on: [push]
 
@@ -22,22 +22,49 @@ jobs:
     - name: Install dependencies
       run: |
         npm install hexo-cli -g
+        npm install hexo-deployer-git -g
         npm install
-
-    # 生成可访问的文档
-    - name: hexo generate
-      run: |
-        hexo g
-
-    - name: Install coscmd
-      run: sudo pip install coscmd
-    - name: Configure coscmd
+        
+    #- name: deploy to github page
+    #  run: |
+    #    hexo clean && hexo deploy
+        
+    # 部署至github page
+    - name: Setup Deploy Private Key
       env:
-        SECRET_ID: ${{ secrets.COSSECRETID }}
-        SECRET_KEY: ${{ secrets.COSSECRETKEY }}
-        BUCKET: blog-1252658952
-        REGION: ap-shanghai
-      run: coscmd config -a $SECRET_ID -s $SECRET_KEY -b $BUCKET -r $REGION
+        HEXO_DEPLOY_PRIVATE_KEY: ${{ secrets.HEXO_DEPLOY_PRI }}
+         # Hexo 编译后使用此 git 用户部署到 github 仓库
+        GIT_USER: seanxu24
+        # Hexo 编译后使用此 git 邮箱部署到 github 仓库
+        GIT_EMAIL: seanxu24@outlook.com
+      run: |
+        mkdir -p ~/.ssh/
+        echo "$HEXO_DEPLOY_PRIVATE_KEY" > ~/.ssh/id_rsa 
+        chmod 600 ~/.ssh/id_rsa
+        ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
+        git config --global user.name $GIT_USER
+        git config --global user.email $GIT_EMAIL
+
+    - name: Deploy Hexo to github page
+      run: |
+        npm deploy
+
+  
+    # 暂停 生成可访问的文档
+    #- name: hexo generate
+    #  run: |
+    #    hexo g
+        
+    # 暂停上传cos上
+    #- name: Install coscmd
+    #  run: sudo pip install coscmd
+    #- name: Configure coscmd
+    #  env:
+    #    SECRET_ID: ${{ secrets.COSSECRETID }}
+    #    SECRET_KEY: ${{ secrets.COSSECRETKEY }}
+    #    BUCKET: blog-1252658952
+    #    REGION: ap-shanghai
+    #  run: coscmd config -a $SECRET_ID -s $SECRET_KEY -b $BUCKET -r $REGION
       
-    - name: Upload to COS
-      run: coscmd upload -rs --delete -f ./public/ /
+    #- name: Upload to COS
+    #  run: coscmd upload -rs --delete -f ./public/ /
