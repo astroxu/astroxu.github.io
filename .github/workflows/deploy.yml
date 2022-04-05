@@ -47,7 +47,9 @@ jobs:
 
     - name: Deploy Hexo to github page
       run: |
-        hexo clean && hexo generate && hexo deploy
+        hexo clean
+        hexo generate
+        hexo deploy
 
   
     # 暂停 生成可访问的文档
