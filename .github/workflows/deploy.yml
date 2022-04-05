@@ -47,7 +47,7 @@ jobs:
 
     - name: Deploy Hexo to github page
       run: |
-        npm deploy
+        hexo clear && hexo deploy
 
   
     # 暂停 生成可访问的文档
