@@ -99,7 +99,7 @@ deploy:
   type: git
   repo: https://github.com/seanxu24/seanxu24.github.io
   branch: main
-  message: '新增github page'
+  message: now('YYYY-MM-DD HH:mm:ss')
 archive_generator:
   per_page: 0
   yearly: false
