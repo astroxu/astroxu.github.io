@@ -62,7 +62,7 @@ ignore: null
 theme: icarus
 deploy:
   type: git
-  repo: git@github.com:seanxu24/seanxu24.github.io.git
+  repo: git@github.com:astroxu24/blog.git
   branch: main
   message: now('YYYY-MM-DD HH:mm:ss')
 archive_generator:
