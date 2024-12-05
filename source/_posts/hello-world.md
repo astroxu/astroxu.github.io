@@ -47,4 +47,6 @@ $ hexo deploy
 
 More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
 
+![haha](/images/image.png)
+
 ![test](https://blog-1252658952.cos.ap-shanghai.myqcloud.com/images/20220329122214_f705976e458c75933320b575df7db6ac.png)

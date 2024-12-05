@@ -1,23 +1,23 @@
 # Version of the configuration file
-version: 5.1.0
+version: 4.0.0
 # Icarus theme variant, can be "default" or "cyberpunk"
 variant: default
 # Path or URL to the website's logo
-logo:  /images/logo.svg #/img/logo.svg
+logo: https://blogimg-1252658952.cos.ap-shanghai.myqcloud.com/images/20220401101510_91bd0abcf414c676da506b7eb47d6567.png
 # Page metadata configurations
 head:
     # URL or path to the website's icon
-    favicon: /images/logo.svg # /img/favicon.svg
+    favicon: https://blogimg-1252658952.cos.ap-shanghai.myqcloud.com/images/20220401101510_91bd0abcf414c676da506b7eb47d6567.png
     # Web application manifests configuration
     # https://developer.mozilla.org/en-US/docs/Web/Manifest
     manifest:
         # Name of the web application (default to the site title)
-        name: $P_
+        name: Sean Xu
         # The displayed name of the web application
         # when there is not enough space to display full name
-        short_name: Sean
+        short_name: sean
         # The start URL of the web application
-        start_url: https://astroxu24.github.io
+        start_url: https://seanxu24.github.io
         # The default theme color for the application
         theme_color: 
         # A placeholder background color for the application page to display
@@ -75,7 +75,7 @@ head:
     structured_data:
         # Page title (optional)
         # You should leave this blank for most of the time
-        title: 
+        title: "Code"
         # Page description (optional)
         # You should leave this blank for most of the time
         description: 
@@ -114,22 +114,25 @@ navbar:
     links:
         Download on GitHub:
             icon: fab fa-github
-            url: https://github.com/astroxu24/blog
+            url: 'https://github.com/seanxu24/blog'
+        #Send Mail:
+        #    icon: fas fa-envelope
+        #    url: 'mailto: seanxu24@outlook.com'
 # Page footer configurations
 footer:
-    # Copyright text
-    copyright: © 2019
     # Links to be shown on the right of the footer section
     links:
         Creative Commons:
             icon: fab fa-creative-commons
-            url: https://creativecommons.org/
+            url: 'https://creativecommons.org/'
         Attribution 4.0 International:
             icon: fab fa-creative-commons-by
-            url: https://creativecommons.org/licenses/by/4.0/
+            url: 'https://creativecommons.org/licenses/by/4.0/'
         Download on GitHub:
             icon: fab fa-github
-            url: https://github.com/astroxu24/blog
+            url: 'https://github.com/seanxu24/blog'
+        豫ICP备20002733号-1:
+            url: 'https://beian.miit.gov.cn'
         Privacy: /privacy
         Imprint: /imprint
 # Article related configurations
@@ -151,66 +154,64 @@ article:
     licenses:
         Creative Commons:
             icon: fab fa-creative-commons
-            url: https://creativecommons.org/
+            url: 'https://creativecommons.org/'
         Attribution:
             icon: fab fa-creative-commons-by
-            url: https://creativecommons.org/licenses/by/4.0/
+            url: 'https://creativecommons.org/licenses/by/4.0/'
         Noncommercial:
             icon: fab fa-creative-commons-nc
-            url: https://creativecommons.org/licenses/by-nc/4.0/
+            url: 'https://creativecommons.org/licenses/by-nc/4.0/'
 # Search plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Search/
 search:
     type: insight
-    # Whether to include pages in the search results
-    index_pages: true
 # Comment plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment/
 comment:
-    type: disqus
+    #type: disqus
     # Disqus shortname
-    shortname: ''
+    #shortname: 'seanxu'
 # Donate plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
 donates:
     # "Afdian.net" donate button configurations
-    -
-        type: afdian
+    #-
+    #    type: afdian
         # URL to the "Afdian.net" personal page
-        url: ''
+    #    url: ''
     # Alipay donate button configurations
-    -
-        type: alipay
+    #-
+    #    type: alipay
         # Alipay qrcode image URL
-        qrcode: ''
+    #    qrcode: ''
     # "Buy me a coffee" donate button configurations
-    -
-        type: buymeacoffee
+    #-
+    #    type: buymeacoffee
         # URL to the "Buy me a coffee" page
-        url: ''
+    #    url: 'https://www.buymeacoffee.com/seanxu24'
     # Patreon donate button configurations
-    -
-        type: patreon
+    #-
+    #    type: patreon
         # URL to the Patreon page
-        url: ''
+    #    url: ''
     # Paypal donate button configurations
-    -
-        type: paypal
+    #-
+    #    type: paypal
         # Paypal business ID or email address
-        business: ''
+    #    business: ''
         # Currency code
-        currency_code: USD
+    #    currency_code: USD
     # Wechat donate button configurations
-    -
-        type: wechat
+    #-
+    #    type: wechat
         # Wechat qrcode image URL
-        qrcode: ''
+    #    qrcode: ''
 # Share plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Share/
 share:
     type: sharethis
     # URL to the ShareThis share plugin script
-    install_url: 'astroxu24.github.io'
+    install_url: 'blog.seanxu.cn'
 # Sidebar configurations.
 # Please be noted that a sidebar is only visible when it has at least one widget
 sidebar:
@@ -231,7 +232,7 @@ widgets:
         position: left
         type: profile
         # Author name
-        author: Sean XU
+        author: Sean Xu
         # Author title
         author_title: Learner
         # Author's current location
@@ -243,28 +244,37 @@ widgets:
         # Email address for the Gravatar
         gravatar: 
         # URL or path for the follow button
-        follow_link: https://github.com/astroxu24
+        #follow_link: 'https://github.com/seanxu24'
         # Links to be shown on the bottom of the profile widget
         social_links:
-            Github:
-                icon: fab fa-github
-                url: https://github.com/astroxu24
-            Facebook:
-                icon: fab fa-facebook
-                url: https://facebook.com
-            Twitter:
-                icon: fab fa-twitter
-                url: https://twitter.com
-            Dribbble:
-                icon: fab fa-dribbble
-                url: https://dribbble.com
-            RSS:
-                icon: fas fa-rss
-                url: /
+            #Github:
+            #    icon: fab fa-github
+            #    url: https://github.com/seanxu24
+            #Weixin:
+            #    icon: fab fa-weixin
+            #    url: 'https://developers.weixin.qq.com/community/personal/oCJUsw4DgF0046Dd6X7b5Lm-INBA'
+            #RSS:
+            #    icon: fas fa-rss
+            #    url: /
+            #Facebook:
+            #    icon: fab fa-facebook
+            #    url: https://facebook.com
+            #Twitter:
+            #    icon: fab fa-twitter
+            #    url: https://twitter.com
+            #Dribbble:
+            #    icon: fab fa-dribbble
+            #    url: https://dribbble.com
+            #RSS:
+            #    icon: fas fa-rss
+            #    url: /
+            #Mail:
+            #    icon: fas fa-envelope
+            #    url: 'mailto:seanxu24@outlook.com'
     # Table of contents widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
-        position: right
+        position: left
         type: toc
         # Whether to show the index of each heading
         index: true
@@ -279,10 +289,10 @@ widgets:
         type: links
         # Names and URLs of the sites
         links:
-            Hexo: https://hexo.io
-            Bulma: https://bulma.io
-            Github Repo: https://github.com/astroxu24/blog
-            TDesign: https://tdesign.tencent.com
+            Github Repo: https://github.com/seanxu24/blog
+            TDesign: 'https://tdesign.tencent.com'
+            #Hexo: https://hexo.io
+            #Bulma: https://bulma.io
     # Categories widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
@@ -303,41 +313,35 @@ widgets:
         # Where should the widget be placed, left sidebar or right sidebar
         position: right
         type: tags
-        # How to order tags. For example 'name' to order by name in ascending order, and '-length' to order by number of posts in each tags in descending order
-        order_by: name
-        # Amount of tags to show. Will show all if not set.
-        amount: 
-        # Whether to show tags count, i.e. number of posts in the tag.
-        show_count: true
     # Google FeedBurner email subscription widget configurations
-    -
+    #-
         # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: subscribe_email
+        #position: left
+        #type: subscribe_email
         # Hint text under the email input
-        description: 
+        #description: "Write me an email!"
         # Feedburner ID
-        feedburner_id: ''
+        #feedburner_id: ''
     # Google AdSense unit configurations
-    -
+    #-
         # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: adsense
+        #position: left
+        #type: adsense
         # AdSense client ID
-        client_id: ''
+        #client_id: ''
         # AdSense AD unit ID
-        slot_id: ''
+        #slot_id: ''
     # Follow.it email subscription widget configurations
-    -
+    #-
         # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: followit
+        #position: left
+        #type: followit
         # Hint text under the email input
-        description: 
+        #description: 
         # Subscription form action URL
-        action_url: ''
+        #action_url: ''
         # Feed claiming verification code
-        verification_code: ''
+        #verification_code: ''
 # Plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/
 plugins:
@@ -369,13 +373,13 @@ plugins:
     # https://www.osano.com/cookieconsent/
     cookie_consent:
         # The compliance type. Can be "info", "opt-in", or "opt-out"
-        type: info
+        type: opt-in
         # Theme of the popup. Can be "block", "edgeless", or "classic"
-        theme: edgeless
+        theme: block
         # Whether the popup should stay static regardless of the page scrolls
         static: false
         # Where on the screen the consent popup should display
-        position: bottom-left
+        position: top-left
         # URL to your site's cookie policy
         policyLink: https://www.cookiesandyou.com/
     # Enable the lightGallery and Justified Gallery plugins
@@ -395,12 +399,10 @@ plugins:
     katex: false
     # Enable the MathJax math typesetting support
     # https://www.mathjax.org/
-    mathjax: false
+    mathjax: true
     # Enable the Outdated Browser plugin
     # http://outdatedbrowser.com/
-    outdated_browser: false
-    # Enable PJAX
-    pjax: true
+    outdated_browser: true
     # Show a progress bar at top of the page on page loading
     progressbar: true
     # Statcounter statistics
