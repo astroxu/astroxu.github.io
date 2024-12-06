@@ -1,72 +1,51 @@
-name: Hexo Auto Deploy
+# Simple workflow for deploying static content to GitHub Pages
+name: Deploy Hexo to Pages
 
-on: [push]
+on:
+  # Runs on pushes targeting the default branch
+  push:
+    branches: ["main"] # 监听 main 分支的更改
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
-  build:
-
+  # Single deploy job since we're just deploying
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-
     steps:
-     # check it to your workflow can access it
-     # from: https://github.com/actions/checkout
-    - name: Checkout Repository master branch
-      uses: actions/checkout@main
-      
-    # from: https://github.com/actions/setup-node  
-    - name: Setup Node.js 12.x 
-      uses: actions/setup-node@master
-      with:
-        node-version: "12.x"
-    
-    - name: Install dependencies
-      run: |
-        npm install hexo-cli -g
-        npm install hexo-deployer-git -g
-        npm install
-        
-    #- name: deploy to github page
-    #  run: |
-    #    hexo clean && hexo deploy
-        
-    # 部署至github page
-    - name: Setup Deploy Private Key
-      env:
-        HEXO_DEPLOY_PRIVATE_KEY: ${{ secrets.HEXO_DEPLOY_PRI }}
-         # Hexo 编译后使用此 git 用户部署到 github 仓库
-        GIT_USER: seanxu24
-        # Hexo 编译后使用此 git 邮箱部署到 github 仓库
-        GIT_EMAIL: seanxu24@outlook.com
-        GIT_DEPLOY_REPO: https://github.com/seanxu24/seanxu24.github.io.git
-      run: |
-        mkdir -p ~/.ssh/
-        echo "$HEXO_DEPLOY_PRIVATE_KEY" > ~/.ssh/id_rsa 
-        chmod 600 ~/.ssh/id_rsa
-        ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
-        git config --global user.name $GIT_USER
-        git config --global user.email $GIT_EMAIL
-        git remote set-url origin $GIT_DEPLOY_REPO
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+      - name: Install Dependencies
+        run: |
+          npm install
+      # 生成静态文件
+      - name: Generate Static Files
+        run: |
+          npx hexo generate
 
-    - name: Deploy Hexo to github page
-      run: |
-        hexo clear && hexo deploy
-
-  
-    # 暂停 生成可访问的文档
-    #- name: hexo generate
-    #  run: |
-    #    hexo g
-        
-    # 暂停上传cos上
-    #- name: Install coscmd
-    #  run: sudo pip install coscmd
-    #- name: Configure coscmd
-    #  env:
-    #    SECRET_ID: ${{ secrets.COSSECRETID }}
-    #    SECRET_KEY: ${{ secrets.COSSECRETKEY }}
-    #    BUCKET: blog-1252658952
-    #    REGION: ap-shanghai
-    #  run: coscmd config -a $SECRET_ID -s $SECRET_KEY -b $BUCKET -r $REGION
-      
-    #- name: Upload to COS
-    #  run: coscmd upload -rs --delete -f ./public/ /
+      # 部署到 GitHub Pages
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
