@@ -3,7 +3,7 @@ subtitle: ''
 description: 技术博客，后端开发，无服务器云函数，Golang
 keywords: seanxu,astroxu,$P_,$p_,$P,$p
 author: $P_
-language: en-US #zh-CN
+language: en #zh-CN
 timezone: Asia/Shanghai
 url: https://astro.github.io
 permalink: ':year/:month/:day/:title/'
