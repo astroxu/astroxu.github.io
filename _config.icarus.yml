@@ -118,7 +118,7 @@ navbar:
 # Page footer configurations
 footer:
     # Copyright text
-    copyright: " $P_'s Log Book \n© 2022-2024 <a href=\"https://yourwebsite.com\">$P_</a>"
+    #copyright: " $P_'s Log Book \n© 2022-2024 <a href=\"https://yourwebsite.com\">$P_</a>"
         #© 2022-2024 $P_ Powered by Hexo & Icarus
         #Site UV: 1940923 Site PV: 2703282
     # Links to be shown on the right of the footer section
