@@ -12,12 +12,12 @@ head:
     # https://developer.mozilla.org/en-US/docs/Web/Manifest
     manifest:
         # Name of the web application (default to the site title)
-        name: $P_
+        name: $P_'s Log Book
         # The displayed name of the web application
         # when there is not enough space to display full name
         short_name: Sean
         # The start URL of the web application
-        start_url: https://astroxu24.github.io
+        start_url: https://astroxu.github.io
         # The default theme color for the application
         theme_color: 
         # A placeholder background color for the application page to display
@@ -51,7 +51,7 @@ head:
         image: 
         # Site name (og:site_name) (optional)
         # You should leave this blank for most of the time
-        site_name: 
+        site_name: $P_'s Log Book
         # Page author (article:author) (optional)
         # You should leave this blank for most of the time
         author: 
@@ -118,8 +118,13 @@ navbar:
 # Page footer configurations
 footer:
     # Copyright text
-    copyright: © 2019
+    copyright:
+        enable: true
+        content: " $P_'s Log Book © 2022-2024 $P_ © <a href=\"https://yourwebsite.com\">$P_</a>"
+        #© 2022-2024 $P_ Powered by Hexo & Icarus
+        #Site UV: 1940923 Site PV: 2703282
     # Links to be shown on the right of the footer section
+    baidu_analytics: ccd19b7c5714c0c17258fc7348df898f
     links:
         Creative Commons:
             icon: fab fa-creative-commons
@@ -129,9 +134,9 @@ footer:
             url: https://creativecommons.org/licenses/by/4.0/
         Download on GitHub:
             icon: fab fa-github
-            url: https://github.com/astroxu24/blog
-        Privacy: /privacy
-        Imprint: /imprint
+            url: https://github.com/astroxu/astro.github.io
+        #Privacy: /privacy
+        #Imprint: /imprint
 # Article related configurations
 article:
     # Code highlight settings

@@ -1,11 +1,11 @@
-title: Sean xu
+title: $P_
 subtitle: ''
 description: 技术博客，后端开发，无服务器云函数，Golang
-keywords: seanxu
-author: seanxu
+keywords: seanxu,astroxu,$P_,$p_,$P,$p
+author: $P_
 language: zh-CN
 timezone: Asia/Shanghai
-url: https://blog.seanxu.cn
+url: https://astro.github.io
 permalink: ':year/:month/:day/:title/'
 permalink_defaults: null
 pretty_urls:
@@ -70,3 +70,8 @@ archive_generator:
   yearly: false
   monthly: false
   daily: false
+statistics:
+  enable: true
+  uv_key: 'uv'
+  pv_key: 'pv'
+  auto_insert: true
