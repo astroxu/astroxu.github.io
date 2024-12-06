@@ -124,7 +124,6 @@ footer:
         #© 2022-2024 $P_ Powered by Hexo & Icarus
         #Site UV: 1940923 Site PV: 2703282
     # Links to be shown on the right of the footer section
-    baidu_analytics: ccd19b7c5714c0c17258fc7348df898f
     links:
         Creative Commons:
             icon: fab fa-creative-commons
@@ -354,7 +353,7 @@ plugins:
     # https://tongji.baidu.com
     baidu_analytics:
         # Baidu Analytics tracking ID
-        tracking_id: 
+        tracking_id: ccd19b7c5714c0c17258fc7348df898f
     # Bing Webmaster Tools plugin settings
     # https://www.bing.com/toolbox/webmaster/
     bing_webmaster:
