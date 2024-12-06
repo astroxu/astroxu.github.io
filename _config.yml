@@ -62,8 +62,8 @@ ignore: null
 theme: icarus
 deploy:
   type: git
-  repo: git@github.com:astroxu/astroxu.github.io.git
-  branch: main
+  repo: https://github.com/astroxu/astroxu.github.io.git
+  branch: gh-pages
   message: now('YYYY-MM-DD HH:mm:ss')
 archive_generator:
   per_page: 0
