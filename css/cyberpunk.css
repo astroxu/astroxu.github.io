@@ -10763,6 +10763,9 @@ body > .section {
   overflow: visible;
   border-radius: 0;
 }
+.card:hover {
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.1);
+}
 .card + .card,
 .card + .column-right-shadow {
   margin-top: 1.5rem;
@@ -10775,6 +10778,21 @@ body > .section {
 .card .media + .media {
   border: none;
   margin-top: 0;
+}
+.card h1 {
+  font-weight: bold;
+}
+.card h2 {
+  font-weight: bold;
+}
+.card h3 {
+  font-weight: bold;
+}
+.card h4 {
+  font-weight: bold;
+}
+.card h5 {
+  font-weight: bold;
 }
 article.media {
   color: #848484;
@@ -10817,19 +10835,29 @@ article.article .content {
   font-size: 1.1rem;
 }
 article.article .content h1 {
+  font-family: 'PT Sans Narrow', sans-serif;
   font-size: 1.75em;
+  font-weight: bold;
 }
 article.article .content h2 {
+  font-family: 'PT Sans Narrow', sans-serif;
   font-size: 1.5em;
+  font-weight: bold;
 }
 article.article .content h3 {
+  font-family: 'PT Sans Narrow', sans-serif;
   font-size: 1.25em;
+  font-weight: bold;
 }
 article.article .content h4 {
+  font-family: 'PT Sans Narrow', sans-serif;
   font-size: 1.125em;
+  font-weight: bold;
 }
 article.article .content h5 {
+  font-family: 'PT Sans Narrow', sans-serif;
   font-size: 1em;
+  font-weight: bold;
 }
 article.article .content pre {
   font-size: 0.85em;
@@ -10967,6 +10995,10 @@ a.article-nav-next span {
   align-items: center;
   padding: 0 0.5rem;
   margin: 1.25rem 0.25rem;
+  font-size: 1.125em;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 .navbar-main .navbar-item.is-active {
   background-color: transparent;
@@ -11353,6 +11385,9 @@ figure.highlight.foldable div.level-left {
 .widget .menu-list li ul {
   margin-right: 0;
 }
+.widget .menu-list a {
+  transition: background-color 0.3s ease-in-out;
+}
 .widget .menu-list .level {
   margin-bottom: 0;
 }
@@ -11376,6 +11411,10 @@ figure.highlight.foldable div.level-left {
 .widget .tags .tag:last-child {
   background: $light-grey;
   color: $white-invert;
+}
+#toc {
+  max-height: calc(100vh - 22px);
+  overflow-y: scroll;
 }
 .level.is-multiline {
   flex-wrap: wrap;
@@ -11564,7 +11603,8 @@ figure.highlight.foldable div.level-left {
 .fab,
 .fal,
 .far,
-.fas {
+.fas,
+.ai {
   line-height: inherit;
 }
 .MathJax,
@@ -11647,8 +11687,16 @@ figure.highlight.foldable div.level-left {
     max-width: 960px;
     width: 960px;
   }
+  .is-3-column .container {
+    max-width: 1216px;
+    width: 1216px;
+  }
 }
 @media screen and (min-width: 1472px) {
+  .is-3-column .container {
+    max-width: 1344px;
+    width: 1344px;
+  }
   .is-2-column .container {
     max-width: 1152px;
     width: 1152px;
@@ -12218,6 +12266,7 @@ article.media .title a {
   background-repeat: no-repeat;
   background-size: 0 100%;
   transition: background-size 0.25s ease-in-out;
+  font-family: 'PT Sans Narrow', sans-serif;
 }
 article.article .title:hover a,
 article.media .title:hover a {
