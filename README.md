@@ -17,4 +17,12 @@ hexo server
 
 // 部署
 hexo clean && hexo deploy
+
+
+// 添加子模块
+git submodule add git@github.com:astroxu/hexo-theme-icarus.git themes/hexo-theme-icarus
+
+git submodule sync
+
+
 ```
