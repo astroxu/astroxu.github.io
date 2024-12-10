@@ -6,9 +6,9 @@ widgets:
     position: left
     type: profile
     # Author name
-    author: Sean XU
+    author: $P_
     # Author title
-    author_title: "<i>Coder</i>"
+    author_title: "Coder"
     # Author's current location
     location: Shanghai
     # URL or path to the avatar image

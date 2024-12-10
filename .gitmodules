@@ -1,4 +1,0 @@
-[submodule "themes/hexo-theme-icarus"]
-	path = themes/hexo-theme-icarus
-	url = https://github.com/astroxu/hexo-theme-icarus.git
-    	branch = $P_

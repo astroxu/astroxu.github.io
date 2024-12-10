@@ -31,7 +31,7 @@ git submodule sync
 git submodule update --remote
 
 // 查看子模块状态
-cd path/to/submodule
+cd themes/hexo-theme-icarus
 git status
 
 

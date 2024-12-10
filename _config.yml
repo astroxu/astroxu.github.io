@@ -5,7 +5,7 @@ keywords: seanxu,astroxu,$P_,$p_,$P,$p
 author: $P_
 language: en #zh-CN
 timezone: Asia/Shanghai
-url: https://astro.github.io
+url: https://astroxu.github.io
 permalink: ':year/:month/:day/:title/'
 permalink_defaults: null
 pretty_urls:
@@ -75,3 +75,6 @@ statistics:
   uv_key: 'uv'
   pv_key: 'pv'
   auto_insert: true
+  post: true
+server:
+  watch: true
