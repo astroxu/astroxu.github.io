@@ -34,74 +34,74 @@ head:
                 # A string containing space-separated image dimensions
                 sizes: ''
                 # A hint as to the media type of the image
-                type: 
+                type:
     # Open Graph metadata
     # https://hexo.io/docs/helpers.html#open-graph
     open_graph:
         # Page title (og:title) (optional)
         # You should leave this blank for most of the time
-        title: 
+        title:
         # Page type (og:type) (optional)
         # You should leave this blank for most of the time
         type: blog
         # Page URL (og:url) (optional)
         # You should leave this blank for most of the time
-        url: 
+        url:
         # Page cover (og:image) (optional)
         # You should leave this blank for most of the time
-        image: 
+        image:
         # Site name (og:site_name) (optional)
         # You should leave this blank for most of the time
         site_name: $P_'s Log Book
         # Page author (article:author) (optional)
         # You should leave this blank for most of the time
-        author: 
+        author:
         # Page description (og:description) (optional)
         # You should leave this blank for most of the time
-        description: 
+        description:
         # Twitter card type (twitter:card)
-        twitter_card: 
+        twitter_card:
         # Twitter ID (twitter:creator)
-        twitter_id: 
+        twitter_id:
         # Twitter Site (twitter:site)
-        twitter_site: 
+        twitter_site:
         # Google+ profile link (deprecated)
-        google_plus: 
+        google_plus:
         # Facebook admin ID
-        fb_admins: 
+        fb_admins:
         # Facebook App ID
-        fb_app_id: 
+        fb_app_id:
     # Structured data of the page
     # https://developers.google.com/search/docs/guides/intro-structured-data
     structured_data:
         # Page title (optional)
         # You should leave this blank for most of the time
-        title: 
+        title:
         # Page description (optional)
         # You should leave this blank for most of the time
-        description: 
+        description:
         # Page URL (optional)
         # You should leave this blank for most of the time
-        url: 
+        url:
         # Page author (article:author) (optional)
         # You should leave this blank for most of the time
-        author: 
+        author:
         # Page publisher (optional)
         # You should leave this blank for most of the time
-        publisher: 
+        publisher:
         # Page publisher logo (optional)
         # You should leave this blank for most of the time
-        publisher_logo: 
+        publisher_logo:
         # Page images (optional)
         # You should leave this blank for most of the time
-        image: 
+        image:
     # Additional HTML meta tags in an array
     meta:
         # Meta tag specified in <attribute>=<value> style
         # E.g., name=theme-color;content=#123456 => <meta name="theme-color" content="#123456">
         - ''
     # URL or path to the website's RSS atom.xml
-    rss: 
+    rss:
 # Page top navigation bar configurations
 navbar:
     # Navigation menu items
@@ -172,7 +172,7 @@ search:
 comment:
     type: disqus
     # Disqus shortname
-    shortname: ''
+    shortname: 'astroxu'
 # Donate plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
 donates:
@@ -244,7 +244,7 @@ widgets:
         # Whether show the rounded avatar image
         avatar_rounded: false
         # Email address for the Gravatar
-        gravatar: 
+        gravatar:
         # URL or path for the follow button
         follow_link: https://github.com/astroxu
         # Links to be shown on the bottom of the profile widget
@@ -309,7 +309,7 @@ widgets:
         # How to order tags. For example 'name' to order by name in ascending order, and '-length' to order by number of posts in each tags in descending order
         order_by: name
         # Amount of tags to show. Will show all if not set.
-        amount: 
+        amount:
         # Whether to show tags count, i.e. number of posts in the tag.
         show_count: true
     # Google FeedBurner email subscription widget configurations
@@ -318,7 +318,7 @@ widgets:
         position: left
         type: subscribe_email
         # Hint text under the email input
-        description: 
+        description:
         # Feedburner ID
         feedburner_id: ''
     # Google AdSense unit configurations
@@ -336,7 +336,7 @@ widgets:
         position: left
         type: followit
         # Hint text under the email input
-        description: 
+        description:
         # Subscription form action URL
         action_url: ''
         # Feed claiming verification code
@@ -357,7 +357,7 @@ plugins:
     # https://www.bing.com/toolbox/webmaster/
     bing_webmaster:
         # Bing Webmaster Tools tracking ID in the <meta> tag
-        tracking_id: 
+        tracking_id:
     # BuSuanZi site/page view counter
     # https://busuanzi.ibruce.info
     busuanzi: true
@@ -365,9 +365,9 @@ plugins:
     # https://www.umeng.com/web
     cnzz:
         # CNZZ tracker id
-        id: 
+        id:
         # CNZZ website id
-        web_id: 
+        web_id:
     # Alerting users about the use of cookies
     # https://www.osano.com/cookieconsent/
     cookie_consent:
@@ -392,7 +392,7 @@ plugins:
     # https://www.hotjar.com/
     hotjar:
         # Hotjar site id
-        site_id: 
+        site_id:
     # Enable the KaTeX math typesetting support
     # https://katex.org/
     katex: false
@@ -410,14 +410,14 @@ plugins:
     # https://statcounter.com/
     statcounter:
         # Statcounter project id
-        project: 
+        project:
         # Statcounter project security code
-        security: 
+        security:
     # Twitter conversion tracking plugin settings
     # https://business.twitter.com/en/help/campaign-measurement-and-analytics/conversion-tracking-for-websites.html
     twitter_conversion_tracking:
         # Twitter Pixel ID
-        pixel_id: 
+        pixel_id:
 # CDN provider settings
 # https://ppoffice.github.io/hexo-theme-icarus/Configuration/Theme/speed-up-your-site-with-custom-cdn/
 providers:
