@@ -21,8 +21,18 @@ hexo clean && hexo deploy
 
 // 添加子模块
 git submodule add git@github.com:astroxu/hexo-theme-icarus.git themes/hexo-theme-icarus
+git submodule add https://github.com/astroxu/hexo-theme-icarus.git themes/hexo-theme-icarus
 
+// 切换子模块分支
+git config -f .gitmodules submodule.themes/hexo-theme-icarus.branch $P_
+
+// 同步子模块
 git submodule sync
+git submodule update --remote
+
+// 查看子模块状态
+cd path/to/submodule
+git status
 
 
 ```
