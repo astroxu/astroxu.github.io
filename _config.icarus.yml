@@ -173,21 +173,43 @@ comment:
 #    type: disqus
 #    # Disqus shortname
 #    shortname: 'astroxu'
-    type: gitalk
-    client_id: Ov23liFVINY4oZSfrWjC
-    client_secret: b440617d21ede26898f21718944d9188c470773f
-    repo: astroxu.github.io
-    owner: astroxu
-    admin:
-        - astroxu
-    per_page: 20                    # 可选填
-    distraction_free_mode: false    # 可选填
-    pager_direction: last           # 可选填
-    create_issue_manually: false    # 可选填
-    proxy: https://proxy-gitalk-api.netlify.app/ https://github.com/serverless-coding/cors-server # 可选填
-    flip_move_options:              # 可选填
-    enable_hotkey: true             # 可选填
-    language: en #zh-CN                 # 可选填
+#    type: gitalk
+#    client_id: Ov23liFVINY4oZSfrWjC
+#    client_secret: b440617d21ede26898f21718944d9188c470773f
+#    repo: astroxu.github.io
+#    owner: astroxu
+#    admin:
+#        - astroxu
+#    per_page: 20                    # 可选填
+#    distraction_free_mode: false    # 可选填
+#    pager_direction: last           # 可选填
+#    create_issue_manually: false    # 可选填
+#    proxy: #https://proxy-gitalk-api.netlify.app/ https://github.com/serverless-coding/cors-server # 可选填
+#    flip_move_options:              # 可选填
+#    enable_hotkey: true             # 可选填
+#    language: en #zh-CN                 # 可选填
+#    type: utterances
+#    repo: astroxu/blog_comment
+#    issue_term: pathname        # 必填项，与issue_number二选一填写
+#    issue_number: 100           # 必填项，与issue_term二选一填写，每篇文章对应一个issue，填写前需要手动创建issue
+#    label: blog     # 可选填
+#    crossorigin: anonymous
+#    theme: github-light         # 可选填
+
+    type: giscus
+    repo: astroxu/blog_comment                # 必填项
+    repoId: MDEwOlJlcG9zaXRvcnkyMzQ4NTg4MDI=             # 必填项
+    category: General          # 可选填，默认为 Announcements
+    categoryId: DIC_kwDODf-pMs4ClFn1 # 必填项
+    mapping: pathname                # 可选填，默认为 pathname
+    strict: false                    # 可选填
+    reactionsEnabled: false          # 可选填
+    emitMetadata: false              # 可选填
+    inputPosition: top               # 可选填，默认为 top
+    theme: preferred_color_scheme            # 可选填
+    lang: en #zh-CN                      # 可选填，默认为 en
+    lazy: true                       # 可选填，默认为 false
+    crossorigin: anonymous
 # Donate plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
 donates:
