@@ -35,6 +35,10 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '16'
+      - name: Install Dependencies for theme
+        run: |
+          cd ./themes/icarus
+          npm install
       - name: Install Dependencies
         run: |
           npm install
