@@ -176,7 +176,7 @@ comment:
     type: gitalk
     client_id: Ov23liFVINY4oZSfrWjC
     client_secret: b440617d21ede26898f21718944d9188c470773f
-    repo: blog_comment
+    repo: astroxu.github.io
     owner: astroxu
     admin:
         - astroxu
