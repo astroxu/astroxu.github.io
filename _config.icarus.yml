@@ -197,13 +197,13 @@ comment:
 #    theme: github-light         # 可选填
 
     type: giscus
-    repo: astroxu/blog_comment                # 必填项
-    repoId: MDEwOlJlcG9zaXRvcnkyMzQ4NTg4MDI=             # 必填项
-    category: General          # 可选填，默认为 Announcements
-    categoryId: DIC_kwDODf-pMs4ClFn1 # 必填项
+    repo: astroxu/astroxu.github.io                # 必填项
+    repoId: R_kgDOHE7vig             # 必填项
+    category: Q&A          # 可选填，默认为 Announcements
+    categoryId: DIC_kwDOHE7vis4ClFoi # 必填项
     mapping: pathname                # 可选填，默认为 pathname
     strict: false                    # 可选填
-    reactionsEnabled: false          # 可选填
+    reactionsEnabled: true          # 可选填
     emitMetadata: false              # 可选填
     inputPosition: top               # 可选填，默认为 top
     theme: preferred_color_scheme            # 可选填
