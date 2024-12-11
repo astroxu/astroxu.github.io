@@ -6,15 +6,15 @@ widgets:
     position: left
     type: profile
     # Author name
-    author: $P_
+    author: Astro Xu
     # Author title
     author_title: "Coder"
     # Author's current location
     location: Shanghai
     # URL or path to the avatar image
-    avatar: # https://blogimg-1252658952.cos.ap-shanghai.myqcloud.com/avatar.png
+    avatar: '/images/logo_big.png'# https://blogimg-1252658952.cos.ap-shanghai.myqcloud.com/avatar.png
     # Whether show the rounded avatar image
-    avatar_rounded: false
+    avatar_rounded: true
     # Email address for the Gravatar
     gravatar:
     # URL or path for the follow button
