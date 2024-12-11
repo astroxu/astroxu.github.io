@@ -78,3 +78,16 @@ statistics:
   post: true
 server:
   watch: true
+feed: # https://github.com/hexojs/hexo-generator-feed
+  enable: true
+  type: atom
+  path: atom.xml #./source/feed/atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
+  icon: icon.png
+  autodiscovery: true
+  template:

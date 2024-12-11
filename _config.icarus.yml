@@ -40,7 +40,7 @@ head:
     open_graph:
         # Page title (og:title) (optional)
         # You should leave this blank for most of the time
-        title:
+        title: $P_'s Log Book
         # Page type (og:type) (optional)
         # You should leave this blank for most of the time
         type: blog
@@ -55,7 +55,7 @@ head:
         site_name: $P_'s Log Book
         # Page author (article:author) (optional)
         # You should leave this blank for most of the time
-        author:
+        author: AstroX
         # Page description (og:description) (optional)
         # You should leave this blank for most of the time
         description:
@@ -76,7 +76,7 @@ head:
     structured_data:
         # Page title (optional)
         # You should leave this blank for most of the time
-        title:
+        title: $P_'s Log Book
         # Page description (optional)
         # You should leave this blank for most of the time
         description:
@@ -85,7 +85,7 @@ head:
         url:
         # Page author (article:author) (optional)
         # You should leave this blank for most of the time
-        author:
+        author: AstroX
         # Page publisher (optional)
         # You should leave this blank for most of the time
         publisher:
@@ -115,7 +115,7 @@ navbar:
     links:
         Download on GitHub:
             icon: fab fa-github
-            url: https://github.com/astroxu24/blog
+            url: https://github.com/astroxu/astroxu.github.io
 # Page footer configurations
 footer:
     # Copyright text
@@ -132,7 +132,7 @@ footer:
             url: https://creativecommons.org/licenses/by/4.0/
         Download on GitHub:
             icon: fab fa-github
-            url: https://github.com/astroxu/astro.github.io
+            url: https://github.com/astroxu/astroxu.github.io
         #Privacy: /privacy
         #Imprint: /imprint
 # Article related configurations
@@ -250,7 +250,7 @@ donates:
 share:
     type: sharethis
     # URL to the ShareThis share plugin script
-    install_url: 'astroxu24.github.io'
+    install_url: 'https://astroxu.github.io'
 # Sidebar configurations.
 # Please be noted that a sidebar is only visible when it has at least one widget
 sidebar:
@@ -271,9 +271,9 @@ widgets:
         position: left
         type: profile
         # Author name
-        author: Sean XU
+        author: Astro XU
         # Author title
-        author_title: "<i>Coder</i>"
+        author_title: "Coder"
         # Author's current location
         location: Shanghai
         # URL or path to the avatar image
@@ -321,7 +321,7 @@ widgets:
         links:
             Hexo: https://hexo.io
             Bulma: https://bulma.io
-            Github Repo: https://github.com/astroxu24/blog
+            Github Repo: https://github.com/astroxu/astroxu.github.io
             TDesign: https://tdesign.tencent.com
     # Categories widget configurations
     -
@@ -350,14 +350,14 @@ widgets:
         # Whether to show tags count, i.e. number of posts in the tag.
         show_count: true
     # Google FeedBurner email subscription widget configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: subscribe_email
-        # Hint text under the email input
-        description:
-        # Feedburner ID
-        feedburner_id: ''
+#    -
+#        # Where should the widget be placed, left sidebar or right sidebar
+#        position: left
+#        type: subscribe_email
+#        # Hint text under the email input
+#        description:
+#        # Feedburner ID
+#        feedburner_id: ''
     # Google AdSense unit configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
