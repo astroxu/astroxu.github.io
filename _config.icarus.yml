@@ -3,7 +3,7 @@ version: 5.1.0
 # Icarus theme variant, can be "default" or "cyberpunk"
 variant: default
 # Path or URL to the website's logo
-logo: /images/favicon.ico #/img/logo.svg
+logo: '/images/favicon.ico' #/img/logo.svg
     #text: $P_
 # Page metadata configurations
 head:
@@ -101,7 +101,7 @@ head:
         # E.g., name=theme-color;content=#123456 => <meta name="theme-color" content="#123456">
         - ''
     # URL or path to the website's RSS atom.xml
-    rss:
+    rss: https://astroxu.github.io/atom.xml
 # Page top navigation bar configurations
 navbar:
     # Navigation menu items
@@ -115,7 +115,7 @@ navbar:
     links:
         Download on GitHub:
             icon: fab fa-github
-            url: https://github.com/astroxu/astroxu.github.io
+            url: https://github.com/astroxu
 # Page footer configurations
 footer:
     # Copyright text
@@ -132,7 +132,7 @@ footer:
             url: https://creativecommons.org/licenses/by/4.0/
         Download on GitHub:
             icon: fab fa-github
-            url: https://github.com/astroxu/astroxu.github.io
+            url: https://github.com/astroxu
         #Privacy: /privacy
         #Imprint: /imprint
 # Article related configurations
@@ -441,7 +441,7 @@ plugins:
     # http://outdatedbrowser.com/
     outdated_browser: true
     # Enable PJAX
-    pjax: true
+    pjax: false
     # Show a progress bar at top of the page on page loading
     progressbar: true
     # Statcounter statistics
