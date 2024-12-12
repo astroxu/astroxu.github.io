@@ -6,7 +6,7 @@
   <link href="https://astroxu.github.io/atom.xml" rel="self"/>
   
   <link href="https://astroxu.github.io/"/>
-  <updated>2024-12-12T08:27:39.112Z</updated>
+  <updated>2024-12-12T08:41:44.814Z</updated>
   <id>https://astroxu.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://astroxu.github.io/2024/12/11/project/waffle/"/>
     <id>https://astroxu.github.io/2024/12/11/project/waffle/</id>
     <published>2024-12-11T07:47:21.000Z</published>
-    <updated>2024-12-12T08:27:39.112Z</updated>
+    <updated>2024-12-12T08:41:44.814Z</updated>
     
     
     <summary type="html">&lt;h1 id=&quot;Introduction&quot;&gt;&lt;a href=&quot;#Introduction&quot; class=&quot;headerlink&quot; title=&quot;Introduction&quot;&gt;&lt;/a&gt;Introduction&lt;/h1&gt;&lt;p&gt;Waffle is a full toolkit for running an AI agent service built with LangGraph, FastAPI and Streamlit.&lt;/p&gt;
@@ -45,7 +45,7 @@
     <link href="https://astroxu.github.io/2022/03/29/project/hexo_blog/"/>
     <id>https://astroxu.github.io/2022/03/29/project/hexo_blog/</id>
     <published>2022-03-29T13:40:19.000Z</published>
-    <updated>2024-12-12T08:27:39.112Z</updated>
+    <updated>2024-12-12T08:41:44.814Z</updated>
     
     
     <summary type="html">&lt;h1 id=&quot;Introduction&quot;&gt;&lt;a href=&quot;#Introduction&quot; class=&quot;headerlink&quot; title=&quot;Introduction&quot;&gt;&lt;/a&gt;Introduction&lt;/h1&gt;&lt;p&gt;testing&lt;/p&gt;</summary>
@@ -65,10 +65,10 @@
   
   <entry>
     <title>自定义组件的函数属性及事件触发</title>
-    <link href="https://astroxu.github.io/2022/01/06/project/test/"/>
-    <id>https://astroxu.github.io/2022/01/06/project/test/</id>
+    <link href="https://astroxu.github.io/2022/01/06/blog/202201_custom_components/"/>
+    <id>https://astroxu.github.io/2022/01/06/blog/202201_custom_components/</id>
     <published>2022-01-06T12:21:28.000Z</published>
-    <updated>2024-12-12T08:27:39.112Z</updated>
+    <updated>2024-12-12T08:41:44.814Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;
@@ -77,10 +77,10 @@
     
     
     
-    <category term="project" scheme="https://astroxu.github.io/categories/project/"/>
+    <category term="blog" scheme="https://astroxu.github.io/categories/blog/"/>
     
     
-    <category term="Mini-program" scheme="https://astroxu.github.io/tags/Mini-program/"/>
+    <category term="WeChat Mini-program" scheme="https://astroxu.github.io/tags/WeChat-Mini-program/"/>
     
     <category term="Custom components" scheme="https://astroxu.github.io/tags/Custom-components/"/>
     
