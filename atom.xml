@@ -6,7 +6,7 @@
   <link href="https://astroxu.github.io/atom.xml" rel="self"/>
   
   <link href="https://astroxu.github.io/"/>
-  <updated>2024-12-12T05:06:10.971Z</updated>
+  <updated>2024-12-12T06:56:43.696Z</updated>
   <id>https://astroxu.github.io/</id>
   
   <author>
@@ -17,83 +17,14 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>new new🆕 测试用-自定义组件的函数属性及事件触发</title>
-    <link href="https://astroxu.github.io/2024/12/06/project/2024_c_d/"/>
-    <id>https://astroxu.github.io/2024/12/06/project/2024_c_d/</id>
-    <published>2024-12-06T12:21:28.000Z</published>
-    <updated>2024-12-12T05:06:10.971Z</updated>
-    
-    
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;开发小程序组件库 TDesign 有感&lt;/p&gt;
-&lt;/blockquote&gt;</summary>
-    
-    
-    
-    <category term="project" scheme="https://astroxu.github.io/categories/project/"/>
-    
-    
-    <category term="小程序" scheme="https://astroxu.github.io/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
-    
-    <category term="自定义组件" scheme="https://astroxu.github.io/tags/%E8%87%AA%E5%AE%9A%E4%B9%89%E7%BB%84%E4%BB%B6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>测试用-自定义组件的函数属性及事件触发</title>
-    <link href="https://astroxu.github.io/2024/01/06/project/2024_a_b/"/>
-    <id>https://astroxu.github.io/2024/01/06/project/2024_a_b/</id>
-    <published>2024-01-06T12:21:28.000Z</published>
-    <updated>2024-12-12T05:06:10.971Z</updated>
-    
-    
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;开发小程序组件库 TDesign 有感&lt;/p&gt;
-&lt;/blockquote&gt;</summary>
-    
-    
-    
-    <category term="project" scheme="https://astroxu.github.io/categories/project/"/>
-    
-    
-    <category term="小程序" scheme="https://astroxu.github.io/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
-    
-    <category term="自定义组件" scheme="https://astroxu.github.io/tags/%E8%87%AA%E5%AE%9A%E4%B9%89%E7%BB%84%E4%BB%B6/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Hello My</title>
     <link href="https://astroxu.github.io/2022/03/29/project/hellomy/"/>
     <id>https://astroxu.github.io/2022/03/29/project/hellomy/</id>
     <published>2022-03-29T13:40:19.000Z</published>
-    <updated>2024-12-12T05:06:10.971Z</updated>
+    <updated>2024-12-12T06:56:43.696Z</updated>
     
     
     <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;testing&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="project" scheme="https://astroxu.github.io/categories/project/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>about</title>
-    <link href="https://astroxu.github.io/2022/01/06/project/essay_a/"/>
-    <id>https://astroxu.github.io/2022/01/06/project/essay_a/</id>
-    <published>2022-01-06T12:21:28.000Z</published>
-    <updated>2024-12-12T05:06:10.971Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;Go essay a</summary>
-        
-      
     
     
     
@@ -107,7 +38,7 @@
     <link href="https://astroxu.github.io/2022/01/06/project/test/"/>
     <id>https://astroxu.github.io/2022/01/06/project/test/</id>
     <published>2022-01-06T12:21:28.000Z</published>
-    <updated>2024-12-12T05:06:10.971Z</updated>
+    <updated>2024-12-12T06:56:43.696Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;
@@ -119,9 +50,9 @@
     <category term="project" scheme="https://astroxu.github.io/categories/project/"/>
     
     
-    <category term="小程序" scheme="https://astroxu.github.io/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
+    <category term="Mini-program" scheme="https://astroxu.github.io/tags/Mini-program/"/>
     
-    <category term="自定义组件" scheme="https://astroxu.github.io/tags/%E8%87%AA%E5%AE%9A%E4%B9%89%E7%BB%84%E4%BB%B6/"/>
+    <category term="Custom components" scheme="https://astroxu.github.io/tags/Custom-components/"/>
     
   </entry>
   
