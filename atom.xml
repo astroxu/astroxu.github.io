@@ -6,7 +6,7 @@
   <link href="https://astroxu.github.io/atom.xml" rel="self"/>
   
   <link href="https://astroxu.github.io/"/>
-  <updated>2024-12-12T03:58:02.771Z</updated>
+  <updated>2024-12-12T05:06:10.971Z</updated>
   <id>https://astroxu.github.io/</id>
   
   <author>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>new new🆕 测试用-自定义组件的函数属性及事件触发</title>
-    <link href="https://astroxu.github.io/2024/12/06/2024_c_d/"/>
-    <id>https://astroxu.github.io/2024/12/06/2024_c_d/</id>
+    <link href="https://astroxu.github.io/2024/12/06/project/2024_c_d/"/>
+    <id>https://astroxu.github.io/2024/12/06/project/2024_c_d/</id>
     <published>2024-12-06T12:21:28.000Z</published>
-    <updated>2024-12-12T03:58:02.771Z</updated>
+    <updated>2024-12-12T05:06:10.971Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;
@@ -30,7 +30,7 @@
     
     
     
-    <category term="小程序1" scheme="https://astroxu.github.io/categories/%E5%B0%8F%E7%A8%8B%E5%BA%8F1/"/>
+    <category term="project" scheme="https://astroxu.github.io/categories/project/"/>
     
     
     <category term="小程序" scheme="https://astroxu.github.io/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
@@ -40,24 +40,11 @@
   </entry>
   
   <entry>
-    <title>My New Post</title>
-    <link href="https://astroxu.github.io/2024/12/06/My-New-Post/"/>
-    <id>https://astroxu.github.io/2024/12/06/My-New-Post/</id>
-    <published>2024-12-06T03:27:54.000Z</published>
-    <updated>2024-12-12T03:58:02.771Z</updated>
-    
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>测试用-自定义组件的函数属性及事件触发</title>
-    <link href="https://astroxu.github.io/2024/01/06/2024_a_b/"/>
-    <id>https://astroxu.github.io/2024/01/06/2024_a_b/</id>
+    <link href="https://astroxu.github.io/2024/01/06/project/2024_a_b/"/>
+    <id>https://astroxu.github.io/2024/01/06/project/2024_a_b/</id>
     <published>2024-01-06T12:21:28.000Z</published>
-    <updated>2024-12-12T03:58:02.771Z</updated>
+    <updated>2024-12-12T05:06:10.971Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;
@@ -66,7 +53,7 @@
     
     
     
-    <category term="小程序1" scheme="https://astroxu.github.io/categories/%E5%B0%8F%E7%A8%8B%E5%BA%8F1/"/>
+    <category term="project" scheme="https://astroxu.github.io/categories/project/"/>
     
     
     <category term="小程序" scheme="https://astroxu.github.io/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
@@ -77,63 +64,27 @@
   
   <entry>
     <title>Hello My</title>
-    <link href="https://astroxu.github.io/2022/03/29/hellomy/"/>
-    <id>https://astroxu.github.io/2022/03/29/hellomy/</id>
+    <link href="https://astroxu.github.io/2022/03/29/project/hellomy/"/>
+    <id>https://astroxu.github.io/2022/03/29/project/hellomy/</id>
     <published>2022-03-29T13:40:19.000Z</published>
-    <updated>2024-12-12T03:58:02.771Z</updated>
+    <updated>2024-12-12T05:06:10.971Z</updated>
     
     
     <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;testing&lt;/p&gt;</summary>
     
     
     
+    <category term="project" scheme="https://astroxu.github.io/categories/project/"/>
     
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://astroxu.github.io/2022/01/25/hello-world/"/>
-    <id>https://astroxu.github.io/2022/01/25/hello-world/</id>
-    <published>2022-01-25T14:40:19.000Z</published>
-    <updated>2024-12-12T03:58:02.771Z</updated>
-    
-    
-    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;testing&lt;/p&gt;</summary>
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>自定义组件的函数属性及事件触发</title>
-    <link href="https://astroxu.github.io/2022/01/06/test/"/>
-    <id>https://astroxu.github.io/2022/01/06/test/</id>
-    <published>2022-01-06T12:21:28.000Z</published>
-    <updated>2024-12-12T03:58:02.771Z</updated>
-    
-    
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;开发小程序组件库 TDesign 有感&lt;/p&gt;
-&lt;/blockquote&gt;</summary>
-    
-    
-    
-    <category term="小程序" scheme="https://astroxu.github.io/categories/%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
-    
-    
-    <category term="小程序" scheme="https://astroxu.github.io/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
-    
-    <category term="自定义组件" scheme="https://astroxu.github.io/tags/%E8%87%AA%E5%AE%9A%E4%B9%89%E7%BB%84%E4%BB%B6/"/>
     
   </entry>
   
   <entry>
     <title>about</title>
-    <link href="https://astroxu.github.io/2022/01/06/essay/essay_a/"/>
-    <id>https://astroxu.github.io/2022/01/06/essay/essay_a/</id>
+    <link href="https://astroxu.github.io/2022/01/06/project/essay_a/"/>
+    <id>https://astroxu.github.io/2022/01/06/project/essay_a/</id>
     <published>2022-01-06T12:21:28.000Z</published>
-    <updated>2024-12-12T03:58:02.771Z</updated>
+    <updated>2024-12-12T05:06:10.971Z</updated>
     
     
       
@@ -146,77 +97,31 @@
     
     
     
-    <category term="essay" scheme="https://astroxu.github.io/categories/essay/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>about</title>
-    <link href="https://astroxu.github.io/2022/01/06/life/life_a/"/>
-    <id>https://astroxu.github.io/2022/01/06/life/life_a/</id>
-    <published>2022-01-06T12:21:28.000Z</published>
-    <updated>2024-12-12T03:58:02.771Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;Go life a</summary>
-        
-      
-    
-    
-    
-    <category term="life" scheme="https://astroxu.github.io/categories/life/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>about</title>
-    <link href="https://astroxu.github.io/2022/01/06/project/project_a/"/>
-    <id>https://astroxu.github.io/2022/01/06/project/project_a/</id>
-    <published>2022-01-06T12:21:28.000Z</published>
-    <updated>2024-12-12T03:58:02.771Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;Go project a</summary>
-        
-      
-    
-    
-    
     <category term="project" scheme="https://astroxu.github.io/categories/project/"/>
     
     
   </entry>
   
   <entry>
-    <title>about</title>
-    <link href="https://astroxu.github.io/2022/01/06/reading/reading_a/"/>
-    <id>https://astroxu.github.io/2022/01/06/reading/reading_a/</id>
+    <title>自定义组件的函数属性及事件触发</title>
+    <link href="https://astroxu.github.io/2022/01/06/project/test/"/>
+    <id>https://astroxu.github.io/2022/01/06/project/test/</id>
     <published>2022-01-06T12:21:28.000Z</published>
-    <updated>2024-12-12T03:58:02.771Z</updated>
+    <updated>2024-12-12T05:06:10.971Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;Go reading a</summary>
-        
-      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;开发小程序组件库 TDesign 有感&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
     
     
     
-    <category term="reading" scheme="https://astroxu.github.io/categories/reading/"/>
+    <category term="project" scheme="https://astroxu.github.io/categories/project/"/>
     
+    
+    <category term="小程序" scheme="https://astroxu.github.io/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
+    
+    <category term="自定义组件" scheme="https://astroxu.github.io/tags/%E8%87%AA%E5%AE%9A%E4%B9%89%E7%BB%84%E4%BB%B6/"/>
     
   </entry>
   
