@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>$P_&#39;s Log Book</title>
-  <icon>https://astroxu.github.io/icon.png</icon>
+  <icon>https://ethanxv24.github.io/icon.png</icon>
   
-  <link href="https://astroxu.github.io/atom.xml" rel="self"/>
+  <link href="https://ethanxv24.github.io/atom.xml" rel="self"/>
   
-  <link href="https://astroxu.github.io/"/>
-  <updated>2024-12-30T08:13:58.717Z</updated>
-  <id>https://astroxu.github.io/</id>
+  <link href="https://ethanxv24.github.io/"/>
+  <updated>2025-02-08T01:52:55.825Z</updated>
+  <id>https://ethanxv24.github.io/</id>
   
   <author>
-    <name>AstroX</name>
+    <name>EthanXv</name>
     
   </author>
   
@@ -18,29 +18,29 @@
   
   <entry>
     <title>IELTS Preparation</title>
-    <link href="https://astroxu.github.io/2024/12/24/blog/202412_ielts_preparation/"/>
-    <id>https://astroxu.github.io/2024/12/24/blog/202412_ielts_preparation/</id>
+    <link href="https://ethanxv24.github.io/2024/12/24/blog/202412_ielts_preparation/"/>
+    <id>https://ethanxv24.github.io/2024/12/24/blog/202412_ielts_preparation/</id>
     <published>2024-12-24T01:30:00.000Z</published>
-    <updated>2024-12-30T08:13:58.717Z</updated>
+    <updated>2025-02-08T01:52:55.825Z</updated>
     
     
     <summary type="html">&lt;p&gt;listening speaking writing reading&lt;br&gt;&lt;strong&gt;TODO&lt;/strong&gt;&lt;/p&gt;</summary>
     
     
     
-    <category term="blog" scheme="https://astroxu.github.io/categories/blog/"/>
+    <category term="blog" scheme="https://ethanxv24.github.io/categories/blog/"/>
     
     
-    <category term="IELTS" scheme="https://astroxu.github.io/tags/IELTS/"/>
+    <category term="IELTS" scheme="https://ethanxv24.github.io/tags/IELTS/"/>
     
   </entry>
   
   <entry>
     <title>Waffle -- Full toolkit for running an AI agent service built with LangGraph, FastAPI and Streamlit</title>
-    <link href="https://astroxu.github.io/2024/12/11/project/waffle/"/>
-    <id>https://astroxu.github.io/2024/12/11/project/waffle/</id>
+    <link href="https://ethanxv24.github.io/2024/12/11/project/waffle/"/>
+    <id>https://ethanxv24.github.io/2024/12/11/project/waffle/</id>
     <published>2024-12-11T07:47:21.000Z</published>
-    <updated>2024-12-30T08:13:58.721Z</updated>
+    <updated>2025-02-08T01:52:55.825Z</updated>
     
     
     <summary type="html">&lt;h1 id=&quot;Introduction&quot;&gt;&lt;a href=&quot;#Introduction&quot; class=&quot;headerlink&quot; title=&quot;Introduction&quot;&gt;&lt;/a&gt;Introduction&lt;/h1&gt;&lt;p&gt;Waffle is a full toolkit for running an AI agent service built with LangGraph, FastAPI and Streamlit.&lt;/p&gt;
@@ -48,46 +48,46 @@
     
     
     
-    <category term="project" scheme="https://astroxu.github.io/categories/project/"/>
+    <category term="project" scheme="https://ethanxv24.github.io/categories/project/"/>
     
     
-    <category term="LangChain" scheme="https://astroxu.github.io/tags/LangChain/"/>
+    <category term="LangChain" scheme="https://ethanxv24.github.io/tags/LangChain/"/>
     
-    <category term="LangGraph" scheme="https://astroxu.github.io/tags/LangGraph/"/>
+    <category term="LangGraph" scheme="https://ethanxv24.github.io/tags/LangGraph/"/>
     
-    <category term="FastAPI" scheme="https://astroxu.github.io/tags/FastAPI/"/>
+    <category term="FastAPI" scheme="https://ethanxv24.github.io/tags/FastAPI/"/>
     
   </entry>
   
   <entry>
     <title>My hexo blog website</title>
-    <link href="https://astroxu.github.io/2022/03/29/project/hexo_blog/"/>
-    <id>https://astroxu.github.io/2022/03/29/project/hexo_blog/</id>
+    <link href="https://ethanxv24.github.io/2022/03/29/project/hexo_blog/"/>
+    <id>https://ethanxv24.github.io/2022/03/29/project/hexo_blog/</id>
     <published>2022-03-29T13:40:19.000Z</published>
-    <updated>2024-12-30T08:13:58.721Z</updated>
+    <updated>2025-02-08T01:52:55.825Z</updated>
     
     
     <summary type="html">&lt;h1 id=&quot;Introduction&quot;&gt;&lt;a href=&quot;#Introduction&quot; class=&quot;headerlink&quot; title=&quot;Introduction&quot;&gt;&lt;/a&gt;Introduction&lt;/h1&gt;&lt;p&gt;testing&lt;/p&gt;</summary>
     
     
     
-    <category term="project" scheme="https://astroxu.github.io/categories/project/"/>
+    <category term="project" scheme="https://ethanxv24.github.io/categories/project/"/>
     
     
-    <category term="Hexo" scheme="https://astroxu.github.io/tags/Hexo/"/>
+    <category term="Hexo" scheme="https://ethanxv24.github.io/tags/Hexo/"/>
     
-    <category term="Blog" scheme="https://astroxu.github.io/tags/Blog/"/>
+    <category term="Blog" scheme="https://ethanxv24.github.io/tags/Blog/"/>
     
-    <category term="Hexo-theme-icarus" scheme="https://astroxu.github.io/tags/Hexo-theme-icarus/"/>
+    <category term="Hexo-theme-icarus" scheme="https://ethanxv24.github.io/tags/Hexo-theme-icarus/"/>
     
   </entry>
   
   <entry>
     <title>自定义组件的函数属性及事件触发</title>
-    <link href="https://astroxu.github.io/2022/01/06/blog/202201_custom_components/"/>
-    <id>https://astroxu.github.io/2022/01/06/blog/202201_custom_components/</id>
+    <link href="https://ethanxv24.github.io/2022/01/06/blog/202201_custom_components/"/>
+    <id>https://ethanxv24.github.io/2022/01/06/blog/202201_custom_components/</id>
     <published>2022-01-06T12:21:28.000Z</published>
-    <updated>2024-12-30T08:13:58.717Z</updated>
+    <updated>2025-02-08T01:52:55.825Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;
@@ -96,12 +96,12 @@
     
     
     
-    <category term="blog" scheme="https://astroxu.github.io/categories/blog/"/>
+    <category term="blog" scheme="https://ethanxv24.github.io/categories/blog/"/>
     
     
-    <category term="WeChat Mini-program" scheme="https://astroxu.github.io/tags/WeChat-Mini-program/"/>
+    <category term="WeChat Mini-program" scheme="https://ethanxv24.github.io/tags/WeChat-Mini-program/"/>
     
-    <category term="Custom components" scheme="https://astroxu.github.io/tags/Custom-components/"/>
+    <category term="Custom components" scheme="https://ethanxv24.github.io/tags/Custom-components/"/>
     
   </entry>
   
